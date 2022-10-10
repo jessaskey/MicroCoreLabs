@@ -1,28 +1,27 @@
 //
 //
-//  File Name   :  ROM_Emulator
+//  File Name   :  ROM_Emulator_HID
 //  Used on     :  
-//  Author      :  Ted Fried, MicroCore Labs
+//  Author      :  Ted Fried, MicroCore Labs. Jess Askey
 //  Creation    :  3/20/2021
 //
 //   Description:
 //   ============
 //   
-//  27Cxxx EPROM Emulator. When Teensy 4.0 run at 816Mhz the address to 
-// data access time is less than 200ns.
-//
+// 27Cxxx EPROM Emulator. When Teensy 4.0 run at 816Mhz the address to 
+// data access time is less than 200ns. This version supports HID commands
+// to allow dynamic setting of EPROM data.
 //------------------------------------------------------------------------
 //
 // Modification History:
 // =====================
 //
-// Revision 1 3/20/2021
-// Initial revision
-//
+// TF - Revision 1 3/20/2021 - Initial revision
+// JA - Revision 1 10/9/2022 - First version with HID commands
 //
 //------------------------------------------------------------------------
 //
-// Copyright (c) 2021 Ted Fried
+// Copyright (c) 2021 Ted Fried, 2022 Jess Askey
 // 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
